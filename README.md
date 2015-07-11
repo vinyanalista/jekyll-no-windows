@@ -1,21 +1,28 @@
-How to Run Jekyll on Windows
-============================
+Como rodar o Jekyll no Windows
+==============================
 
-[Jekyll](http://jekyllrb.com), a simple, blog-aware, static site generator, is very easy to set up on Mac OS X or Linux. On Windows, not so much. This guide is here to help.
+[Jekyll](http://jekyllrb.com), um simples gerador de *sites* estáticos, focado especialmente em *blogs*, pode ser instalado com bastante facilidade no [Mac OS X](https://www.apple.com/br/osx/what-is/) ou no [Linux](http://www.vivaolinux.com.br/linux/). No [Windows](http://www.microsoft.com/pt-br/windows), nem tanto. Este guia está aqui para ajudar.
 
-Visit [the new, colorful, easy to read site](http://jekyll-windows.juthilo.com) to get started!
+Visite [o *site*](https://vinyanalista.github.io/jekyll-no-windows) para começar!
 
-There's an outdated Spanish translation of the guide [here](https://github.com/juthilo/run-jekyll-on-windows/blob/gh-pages/es/README.md).
+Há uma tradução desatualizada do guia para o Espanhol [aqui](https://github.com/juthilo/run-jekyll-on-windows/blob/gh-pages/es/README.md).
 
-## Author
+A versão original do guia em inglês e seu código-fonte se encontram [aqui](http://jekyll-windows.juthilo.com/) e [aqui](https://github.com/juthilo/run-jekyll-on-windows), respectivamente.
 
-**Julian Thilo**
+## Autores
+
+**Julian Thilo** ([versão original](http://jekyll-windows.juthilo.com/), em inglês)
 
 * <https://github.com/juthilo>
 * <https://twitter.com/juthilo>
 
-## License
+**Antônio Vinícius** ([tradução](https://vinyanalista.github.io/jekyll-no-windows) para o Português do Brasil)
 
-Copyright &copy; 2014 Julian Thilo. [Licensed under CC-BY-3.0](LICENSE). Enjoy!
+* <https://github.com/vinyanalista>
+* <https://twitter.com/vinyanalista>
 
-Built using Mark Otto's extraordinary [Hyde](http://hyde.getpoole.com), which is licensed under the [MIT license](https://github.com/juthilo/run-jekyll-on-windows/blob/gh-pages/LICENSE-hyde.md).
+## Licença
+
+Copyright &copy; 2014 Julian Thilo, 2015 Antônio Vinícius. Disponibilizado gratuitamente sob a licença [CC-BY-3.0](LICENSE). Aproveite!
+
+Construído utilizando o extraordinário [Hyde](http://hyde.getpoole.com) por Mark Otto, que é licenciado sob a [licença do MIT](https://github.com/vinyanalista/jekyll-no-windows/blob/gh-pages/LICENSE-hyde.md).
