@@ -6,13 +6,13 @@ highlighter:      pygments
 permalink:        pretty
 
 # Setup
-title:            'Run Jekyll on Windows'
-url:              http://jekyll-windows.juthilo.com
-baseurl:          /
+title:            'Jekyll no Windows'
+url:              https://vinyanalista.github.io
+baseurl:          /jekyll-no-windows
 
 github:
-  repo:           https://github.com/juthilo/run-jekyll-on-windows
+  repo:           https://github.com/vinyanalista/jekyll-no-windows
 
 author:
-  name:           'Julian Thilo'
-  url:            https://twitter.com/juthilo
+  name:           'Antônio Vinícius Menezes Medeiros'
+  url:            https://vinyanalista.github.io

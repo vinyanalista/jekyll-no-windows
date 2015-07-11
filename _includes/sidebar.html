@@ -2,30 +2,30 @@
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
       <h1>{{ site.title }}</h1>
-      <p class="lead">A step-by-step guide to setting up <a href="http://jekyllrb.com">Jekyll</a> on Windows by <a href="{{ site.author.url }}">@juthilo</a>.</p>
+      <p class="lead">Um guia passo-a-passo para instalar o <a href="http://jekyllrb.com">Jekyll</a> no Windows por <a href="{{ site.author.url }}">@vinyanalista</a>.</p>
     </div>
 
     <ul class="sidebar-nav">
-      <li class="sidebar-nav-item{% if page.title == "Home" %} active{% endif %}">
-        <a href="/">Home</a>
+      <li class="sidebar-nav-item{% if page.title == "Introdução" %} active{% endif %}">
+        <a href="{{ "/" | prepend: site.baseurl }}">Introdução</a>
       </li>
       <li class="sidebar-nav-item{% if page.step == 1 %} active{% endif %}">
-        <a href="/1-ruby-and-devkit">1 Ruby</a>
+        <a href="{{ "/1-ruby-e-devkit" | prepend: site.baseurl }}">1 Ruby</a>
       </li>
       <li class="sidebar-nav-item{% if page.step == 2 %} active{% endif %}">
-        <a href="/2-jekyll-gem">2 Jekyll</a>
+        <a href="{{ "/2-jekyll" | prepend: site.baseurl }}">2 Jekyll</a>
       </li>
       <li class="sidebar-nav-item{% if page.step == 3 %} active{% endif %}">
-        <a href="/3-syntax-highlighting">3 Syntax</a>
+        <a href="{{ "/3-realce-de-sintaxe" | prepend: site.baseurl }}">3 Realce de sintaxe</a>
       </li>
       <li class="sidebar-nav-item{% if page.step == 4 %} active{% endif %}">
-        <a href="/4-wdm-gem">4 Watch</a>
+        <a href="{{ "/4-wdm" | prepend: site.baseurl }}">4 Watch</a>
       </li>
       <li class="sidebar-nav-item{% if page.step == 5 %} active{% endif %}">
-        <a href="/5-running-jekyll">5 Run it</a>
+        <a href="{{ "/5-rodando" | prepend: site.baseurl }}">5 Rodando</a>
       </li>
       <li class="sidebar-nav-item">
-        <a href="{{ site.github.repo }}">GitHub project</a>
+        <a href="{{ site.github.repo }}">Projeto do GitHub</a>
       </li>
     </ul>
   </div>
