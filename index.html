@@ -4,92 +4,92 @@ title: Introdução
 ---
 
 <h1 class="post-title">Introdução</h1>
-<p><a href="http://jekyllrb.com">Jekyll</a>, a simple, blog-aware, static site generator, is very easy to set up on Mac OS X or Linux. On Windows, not so much. This site is here to help.</p>
-<p>Please note: Using Jekyll on Windows is not officially supported by the Jekyll team. And while this guide is featured on <a href="http://jekyllrb.com/docs/windows/">the Jekyll website</a>, it remains unofficial.</p>
-<p>Click the big button below to get started and go through the installation process step by step or select a specific step from the sidebar on the left.</p>
-<a href="{{ site.baseurl }}1-ruby-and-devkit" class="button-monster">Get started &raquo;</a>
-<h2 id="versions">Versions</h2>
-<p>If you follow this guide step by step, you'll end up with the following software versions. These have been tested and work with Jekyll on Windows.</p>
-<p>Versions that have been successfully tested in the past are also listed in the third column. It is generally encouraged to keep your Gems updated (up to the versions indicated below) by regularly running <code>gem update &amp;&amp; gem cleanup</code>.</p>
+<p>O <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, um simples gerador de <em>sites</em> estáticos, focado especialmente em <em>blogs</em>, pode ser instalado com bastante facilidade no <a href="https://www.apple.com/br/osx/what-is/" target="_blank">Mac OS X</a> ou no <a href="http://www.vivaolinux.com.br/linux/" target="_blank">Linux</a>. No <a href="http://www.microsoft.com/pt-br/windows" target="_blank">Windows</a>, nem tanto. Este guia está aqui para ajudar.</p>
+<p>Veja bem: o uso do Jekyll no Windows não é oficialmente suportado pelos desenvolvedores do Jekyll. E apesar de <a href="http://jekyll-windows.juthilo.com/">a versão original deste guia em inglês</a> ser mencionada no <a href="http://jekyllrb.com/docs/windows/" target="_blank"><em>site</em> do Jekyll</a>, ele ainda não é oficial.</p>
+<p>Clique no botão abaixo para começar e avançar passo-a-passo pelo processo de instalação ou selecione um passo específico na barra lateral à esquerda.</p>
+<a href="{{ "/1-ruby-e-devkit" | prepend: site.baseurl }}" class="button-monster">Começar &raquo;</a>
+<h2 id="versions">Versões</h2>
+<p>Se você seguir este guia passo-a-passo, terminará com as seguintes versões dos <em>softwares</em>. Essas foram testadas e funcionam com o Jekyll no Windows.</p>
+<p>Versões que foram testadas e funcionaram bem no passado também são listadas na terceira coluna. Geralmente se recomenda manter suas Gems atualizadas (até as versões indicadas abaixo) executando regularmente <code>gem update &amp;&amp; gem cleanup</code>.</p>
 <table>
   <thead>
     <tr>
-      <th width="50%">Software (package)</th>
-      <th width="20%">Version</th>
-      <th>Also tested</th>
+      <th width="50%"><em>Software</em> (pacote)</th>
+      <th width="20%">Versão</th>
+      <th>Previamente testadas</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Ruby</td>
-      <td>2.0.0p576</td>
-      <td>2.0.0p481</td>
+      <td><a href="https://www.ruby-lang.org/pt/about/" target="_blank">Ruby</a></td>
+      <td>2.2.2</td>
+      <td>2.0.0p576 2.0.0p481</td>
     </tr>
     <tr>
       <td>Jekyll</td>
-      <td>2.5.1</td>
-      <td>2.4.0 2.3.0 2.2.0 2.1.1 2.1.0</td>
+      <td>2.5.3</td>
+      <td>2.5.1 2.4.0 2.3.0 2.2.0 2.1.1 2.1.0</td>
     </tr>
     <tr>
-      <td>listen</td>
+      <td><a href="https://github.com/guard/listen" target="_blank">listen</a></td>
+      <td>2.10.1</td>
       <td>2.7.11</td>
-      <td>N/A</td>
     </tr>
     <tr>
-      <td>wdm</td>
+      <td><a href="https://github.com/Maher4Ever/wdm" target="_blank">wdm</a></td>
       <td>0.1.0</td>
-      <td>N/A</td>
+      <td>N/D</td>
     </tr>
   </tbody>
 </table>
 <table>
   <thead>
     <tr>
-      <th colspan="3">If you use Pygments for syntax highlighting:</th>
+      <th colspan="3">Se você usa o <a href="http://pygments.org/" target="_blank">Pygments</a> para realce de sintaxe:</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td width="50%">pygments.rb</td>
-      <td width="20%">0.6.0</td>
-      <td>N/A</td>
+      <td width="50%"><a href="https://github.com/tmm1/pygments.rb" target="_blank">pygments.rb</a></td>
+      <td width="20%">0.6.3</td>
+      <td>0.6.0</td>
     </tr>
     <tr>
-      <td>Python</td>
+      <td><a href="https://www.python.org/about/" target="_blank">Python</a></td>
+      <td>2.7.10</td>
       <td>2.7.8</td>
-      <td>N/A</td>
     </tr>
     <tr>
-      <td>pip</td>
+      <td><a href="https://pip.pypa.io/" target="_blank">pip</a></td>
+      <td>7.0.3</td>
       <td>1.5.6</td>
-      <td>N/A</td>
     </tr>
     <tr>
-      <td>setuptools</td>
-      <td>5.4.1</td>
+      <td><a href="https://pypi.python.org/pypi/setuptools" target="_blank">setuptools</a></td>
+      <td>5.4.1</td><!-- TODO Verificar -->
       <td>N/A</td>
     </tr>
     <tr>
       <td>Pygments</td>
+      <td>2.0.2</td>
       <td>1.6</td>
-      <td>N/A</td>
     </tr>
   </tbody>
 </table>
 <table>
   <thead>
     <tr>
-      <th colspan="3">If you use Rouge for syntax highlighting:</th>
+      <th colspan="3">Se você usa o <a href="http://rouge.jneen.net/" target="_blank">Rouge</a> para realce de sintaxe:</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td width="50%">Rouge</td>
-      <td width="20%">1.7.3</td>
-      <td>1.7.2 1.6.2 1.6.1 1.5.1 1.4.0</td>
+      <td width="20%">1.9.0</td>
+      <td>1.7.3 1.7.2 1.6.2 1.6.1 1.5.1 1.4.0</td>
     </tr>
   </tbody>
 </table>
 <h2>Portable Jekyll</h2>
-<p><a href="https://github.com/madhur" target="_blank">@madhur</a> has created <a href="https://github.com/madhur/PortableJekyll" target="_blank">Portable Jekyll</a>. Refer to the project's documentation for more information on how to install and use it. Please note that Portable Jekyll may not always be up to date with the latest version of Jekyll out of the box.</p>
-<p class="footer">Copyright &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}, licensed under <a href="https://github.com/juthilo/run-jekyll-on-windows/blob/gh-pages/LICENSE" target="_blank">CC-BY-3.0</a>.
+<p><a href="https://github.com/madhur" target="_blank">@madhur</a> criou o <a href="https://github.com/madhur/PortableJekyll" target="_blank">Portable Jekyll</a>. Você pode acessar a documentação do projeto para mais informações sobre como instalá-lo e utilizá-lo. Observe que o Portable Jekyll nem sempre vem atualizado com a última versão do Jekyll.</p>
+<p class="footer">Copyright &copy; 2014 Julian Thilo, {{ site.time | date: '%Y' }} {{ site.author.name }}, disponibilizado gratuitamente sob a licença <a href="https://github.com/vinyanalista/jekyll-no-windows/blob/gh-pages/LICENSE" target="_blank">CC-BY-3.0</a>.
