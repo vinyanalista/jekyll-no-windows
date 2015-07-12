@@ -1,30 +1,30 @@
 ---
 layout: page
-title: Install the Jekyll Gem
+title: Instale o Jekyll
 step: 2
 ---
 
-## Installation
+## Instalação
 
-Jekyll itself comes in the form of a Ruby Gem, which is an easy-to-install software package. To install Jekyll and all its default dependencies, launch your favorite command line tool and enter the following command.
+O próprio <a href="http://jekyllrb.com" target="_blank">Jekyll</a> é distribuído na forma de uma *gem* do <a href="https://www.ruby-lang.org/pt/about/" target="_blank">Ruby</a>, que é um pacote de *software* de fácil instalação. Para instalar o Jekyll e todas as suas dependências, abra a ferramenta de linha de comando de sua preferência e digite o comando a seguir.
 
 ~~~
 gem install jekyll
 ~~~
 
-Hit enter, watch, enjoy. This might take a while due to the number of dependencies.
+Tecle Enter, assista e divirta-se. Isso pode demorar algum tempo, devido ao número de dependências.
 
-## Compatibility
+## Compatibilidade
 
-The latest version of Jekyll at the time of writing is v2.4.0, which is compatible with Windows. Most of the previous versions are, too. Do not attempt to install Jekyll v1.4.3, though, which is [known to be incompatible with Windows](https://github.com/jekyll/jekyll/issues/1948).
+A versão mais recente do Jekyll até o momento em que este guia foi escrito é a 2.5.3, que é compatível com <a href="http://www.microsoft.com/pt-br/windows" target="_blank">Windows</a>. A maioria das versões anteriores também são. No entanto, não tente instalar o Jekyll 1.4.3, que é [incompatível com o Windows](https://github.com/jekyll/jekyll/issues/1948).
 
-Check back here when a new version of Jekyll is released to find out if it remains compatible with Windows.
+Volte aqui quando uma nova versão do Jekyll for lançada para saber se ela permanece compatível com o Windows.
 
-## Summary
+## Resumo
 
-Tada! You have successfully installed Jekyll. In fact, you can already build and serve sites without errors, unless there are blocks of code in there and you want to use syntax highlighting. To find out how to properly set up one of two syntax highlighters, click on the button below.
+Tcharam! Você instalou com sucesso o Jekyll. De fato, você já pode compilar e servir *sites* sem erros, a menos que eles possuam exemplos de código e você deseje usar realce de sintaxe para formatá-los. Para ver como configurar adequadamente um dos dois realçadores de sintaxe, clique no botão abaixo.
 
 <div class="pagination">
-  <a class="pagination-item older" href="{{ site.baseurl }}1-ruby-and-devkit">&laquo; Install Ruby</a>
-  <a class="pagination-item newer" href="{{ site.baseurl }}3-syntax-highlighting">Beautiful Code &raquo;</a>
+  <a class="pagination-item older" href="{{ "/1-ruby-e-devkit" | prepend: site.baseurl }}">&laquo; Instalar o Ruby</a>
+  <a class="pagination-item newer" href="{{ "/3-realce-de-sintaxe" | prepend: site.baseurl }}">Embelezar código &raquo;</a>
 </div>
