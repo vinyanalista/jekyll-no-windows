@@ -1,57 +1,57 @@
 ---
 layout: page
-title: Install Ruby and the Ruby DevKit
+title: Instale o Ruby e o Ruby DevKit
 nav_title: Ruby
 step: 1
 ---
 
-Ruby is the programming language that Jekyll is written in. You'll need to install Ruby and the corresponding DevKit, which is needed to build some of Jekyll's dependencies as "native extensions".
+<a href="https://www.ruby-lang.org/pt/about/" target="_blank">Ruby</a> é a linguagem de programação na qual o <a href="http://jekyllrb.com" target="_blank">Jekyll</a> é desenvolvido. Você precisará instalar o Ruby e o <a href="http://rubyinstaller.org/add-ons/devkit/" target="_blank">DevKit</a> correspondente, que é necessário para compilar algumas das dependências do Jekyll como "extensões nativas".
 
-## Install Ruby
+## Instale o Ruby
 
-First, click on the button below and download the installer for Ruby v2.0.0 that matches your system's architecture (x86 / x64).
+Primeiramente, clique no botão abaixo e baixe o instalador do Ruby 2.2.2 correspondente à arquitetura do seu sistema (x86 / x64).
 
-<a href="http://rubyinstaller.org/downloads/" class="button-external" target="_blank">Get Ruby for Windows</a>
+<a href="http://rubyinstaller.org/downloads/" class="button-external" target="_blank">Baixe o Ruby para Windows</a>
 
-Execute the installer and go through the steps of the installation. When you get to the screen below, make sure to check the "Add Ruby executables to your PATH" box.
+Execute o instalador e avance pelas telas da instalação. Quando você chegar na tela abaixo, certifique-se de marcar a opção "*Add Ruby executables to your PATH*".
 
-<img alt="Screenshot of the Ruby installation's final step" src="../public/img/ruby-path.png" class="img-nice">
+<img alt="Foto da última tela da instalação do Ruby" src="../public/img/ruby-path.jpg" class="img-nice">
 
-Click Install and Ruby will be installed within seconds.
+Clique em "*Install*" e o Ruby será instalado em segundos.
 
-## Install the Ruby DevKit
+## Instale o Ruby DevKit
 
-Jekyll has some dependencies which, out of the box, only provide raw source code. To make them into fully functional executables, you'll probably need to install the Development Kit.
+O Jekyll tem algumas dependências que, a princípio, são fornecidas apenas na forma de código-fonte bruto. Para transformá-las em executáveis funcionais, você provavelmente precisará instalar o Ruby Development Kit.
 
-Click the button below and download the DevKit archive that corresponds to your Ruby installation and system architecture. For Ruby v2.0.0, the file name will begin with `DevKit-mingw64`. Choose the 32bits or 64bits version depending on your system.
+Clique no botão abaixo e baixe o instalador do DevKit que corresponde à versão do Ruby que você instalou e à arquitetura do seu sistema. Para o Ruby 2.2.2, o nome do arquivo começará com `DevKit-mingw64`. Escolha a versão de 32 *bits* ou 64 *bits* dependendo do seu sistema.
 
-<a href="http://rubyinstaller.org/downloads/" class="button-external" target="_blank">Get the Ruby DevKit</a>
+<a href="http://rubyinstaller.org/downloads/" class="button-external" target="_blank">Baixe o Ruby DevKit</a>
 
-The download is a self-extracting archive. When you execute the file, it'll ask you for a destination for the files. Enter a path that has no spaces in it. We recommend something simple, like `C:\RubyDevKit\`. Click Extract and wait until the process is finished.
+O arquivo baixado é um arquivo auto-extraível. Quando você abri-lo, ele perguntará onde deve extrair os arquivos. Forneça um caminho que não contenha espaços. Recomendamos algo simples, como `C:\RubyDevKit\`. Clique em "*Extract*" e espere até que o processo termine.
 
-Next, you need to initialize the DevKit and bind it to your Ruby installation. Open your favorite command line tool and navigate to the folder you extracted the DevKit into.
+Em seguida, você precisa inicializar o DevKit e associá-lo à sua instalação do Ruby. Abra a ferramenta de linha de comando de sua preferência e navegue até a pasta na qual você extraiu o DevKit.
 
 ~~~
 cd C:\RubyDevKit
 ~~~
 
-Auto-detect Ruby installations and add them to a configuration file for the next step.
+Auto-detecte as instalações do Ruby e as adicione a um arquivo de configuração para a próxima etapa.
 
 ~~~
 ruby dk.rb init
 ~~~
 
-Install the DevKit, binding it to your Ruby installation.
+Instale o DevKit, associando-o à sua instalação do Ruby.
 
 ~~~
 ruby dk.rb install
 ~~~
 
-## Summary
+## Resumo
 
-That's it! If all went well, you now have a working Ruby installation on your machine and you can build fully functional executables using the Ruby Development Kit. Ruby includes a way to install so-called *gems*&mdash;software packages that you can use from the command line. Jekyll is one of them! Click the button below to find out how you can successfully install it.
+Bom, é isso! Se tudo ocorreu bem, agora você possui uma instalação funcional do Ruby na sua máquina e pode gerar executáveis funcionais usando o Ruby Development Kit. O Ruby inclui uma maneira de instalar as chamadas *gems* ("jóias") &mdash; pacotes de *software* que você pode usar a partir da linha de comando. O Jekyll é uma delas! Clique no botão abaixo para ver como você pode instalá-lo.
 
 <div class="pagination">
-  <a class="pagination-item older" href="{{ site.baseurl }}">&laquo; Introduction</a>
-  <a class="pagination-item newer" href="{{ site.baseurl }}2-jekyll-gem">Install Jekyll Gem &raquo;</a>
+  <a class="pagination-item older" href="{{ "/" | prepend: site.baseurl }}">&laquo; Introdução</a>
+  <a class="pagination-item newer" href="{{ "/2-jekyll" | prepend: site.baseurl }}">Instalar o Jekyll &raquo;</a>
 </div>
