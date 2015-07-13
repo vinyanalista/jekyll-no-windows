@@ -4,35 +4,35 @@ title: Execute o Jekyll sem erros
 step: 5
 ---
 
-## No BOM allowed
+## `BOM` não é permitido
 
-If there are `BOM` header characters in your UTF-8-encoded files, Jekyll will break. Make sure there are none.
+Se houver quaisquer caracteres `BOM` no cabeçalho dos seus arquivos codificados como UTF-8, o <a href="http://jekyllrb.com" target="_blank">Jekyll</a> vai travar. Certifique-se de que não há.
 
-## Set your encoding to UTF-8
+## Altere a codificação dos seus arquivos para UTF-8
 
-Depending on the version of Ruby and/or Jekyll you're using, your site's content, and maybe other factors, you may need to make sure Jekyll will read your site's source as UTF-8.
+Dependendo da versão do <a href="https://www.ruby-lang.org/pt/about/" target="_blank">Ruby</a> e/ou do Jekyll que você está usando, do conteúdo do seu *site*, e possivelmente de outros fatores, talvez você precise se certificar de que o Jekyll lerá o código-fonte do seu *site* como UTF-8.
 
-If you followed this guide step by step or if your versions match the ones in this guide, you shouldn't need to use any of the following fixes.
+Se você seguiu este guia passo-a-passo ou se suas versões correspondem às [versões usadas neste guia]({{ "/#versoes" | prepend: site.baseurl }}), provavelmente não é necessário realizar os reparos indicados a seguir.
 
-### Set `encoding` option
+### Defina a opção `encoding`
 
-Since Jekyll v1.3.0, you can specify the encoding in your `_config.yml`:
+Desde a versão 1.3.0 do Jekyll, você pode definir a codificação do seu *site* no arquivo `_config.yml`:
 
 ~~~
 encoding: utf-8
 ~~~
 
-### Change console encoding
+### Altere a codificação do console
 
-Alternatively, you can change your command line tool's encoding to UTF-8 by running the following command every time you open a new console window.
+Ao invés disso, você pode mudar a codificação da sua ferramenta de linha de comando para UTF-8 executando o comando a seguir toda vez em que abrir uma nova janela de console.
 
 ~~~
 chcp 65001
 ~~~
 
-## Use subfolders
+## Use subdiretórios
 
-Jekyll cannot build or serve sites from certain system-reserved folders on Windows, like your user folder. Instead, it will output an error looking like this:
+O Jekyll não consegue compilar ou servir *sites* de certos diretórios reservados do <a href="http://www.microsoft.com/pt-br/windows" target="_blank">Windows</a>, como seu diretório de usuário. Ao invés disso, ele informará um erro parecido com este:
 
 {% highlight text %}
 C:\Users\You>jekyll serve
@@ -40,12 +40,12 @@ Configuration file: C:\Users\You\_config.yml
             Source: C:\Users\You
        Destination: C:\Users\You\_site
       Generating...
-jekyll 2.4.0 | Error: Permission denied - .
+jekyll 2.5.3 | Error:  Permission denied @ dir_initialize - .
 {% endhighlight %}
 
-If you encounter such an error, move your site to a subdirectory (e.g., `C:\Users\You\awesome-jekyll-site`) and try again.
+Se você encontrar um erro como esse, mova seu *site* para um subdiretório (por exemplo, `C:\Users\You\awesome-jekyll-site`) e tente novamente.
 
-## The End
+## Fim
 
 {% highlight text %}
 jekyll build
@@ -56,11 +56,11 @@ jekyll serve --watch
 jekyll serve -w
 {% endhighlight %}
 
-You can now run all of the above commands on your Windows machine. Congratulations! You have successfully set up Jekyll on Windows.
+Agora você pode executar todos os comandos acima no seu computador com Windows. Parabéns: você instalou o Jekyll no Windows com sucesso!
 
-Found something that wasn't quite clear? Is something in this guide outdated? Did I forget something? Please [look if somebody else noticed it already](https://github.com/juthilo/run-jekyll-on-windows/issues?state=open) or [file a new issue on GitHub](https://github.com/juthilo/run-jekyll-on-windows/issues/new) if that's not the case. Thanks!
+Achou que algo não ficou muito claro? Algo neste guia está desatualizado? Esqueci alguma coisa? Por favor, verifique se alguém já percebeu na [lista de problemas conhecidos deste guia](https://github.com/vinyanalista/jekyll-no-windows/issues?state=open) ou [reporte um novo problema no GitHub](https://github.com/vinyanalista/jekyll-no-windows/issues/new) se não for o caso. Obrigado!
 
-If you need help with using Jekyll in general, please visit the official Jekyll website by clicking the button below.
+Se precisar de ajuda sobre como usar o Jekyll de uma maneira em geral, visite o *site* oficial do Jekyll clicando no botão abaixo.
 
 <div class="pagination">
   <a class="pagination-item older" href="{{ "/4-wdm" | prepend: site.baseurl }}">&laquo; Watch</a>
