@@ -1,5 +1,5 @@
-Como rodar o Jekyll no Windows
-==============================
+Jekyll no Windows
+=================
 
 O [Jekyll](http://jekyllrb.com), um simples gerador de *sites* estáticos, focado especialmente em *blogs*, pode ser instalado com bastante facilidade no [Mac OS X](https://www.apple.com/br/osx/what-is/) ou no [Linux](http://www.vivaolinux.com.br/linux/). No [Windows](http://www.microsoft.com/pt-br/windows), nem tanto. Este guia está aqui para ajudar.
 
@@ -23,6 +23,6 @@ A versão original do guia em inglês e seu código-fonte se encontram [aqui](ht
 
 ## Licença
 
-Copyright &copy; 2014 Julian Thilo, 2015 Antônio Vinícius Menezes Medeiros. Disponibilizado gratuitamente sob a licença [CC-BY-3.0](LICENSE). Aproveite!
+Copyright &copy; 2015 Julian Thilo, Antônio Vinícius Menezes Medeiros. Disponibilizado gratuitamente sob a licença [CC-BY-3.0](LICENSE). Aproveite!
 
-Construído utilizando o extraordinário [Hyde](http://hyde.getpoole.com) por Mark Otto, que é licenciado sob a [licença do MIT](https://github.com/vinyanalista/jekyll-no-windows/blob/gh-pages/LICENSE-hyde.md).
+Construído utilizando o extraordinário [Hyde](http://hyde.getpoole.com) por Mark Otto, disponibilizado sob a [licença do MIT](https://github.com/vinyanalista/jekyll-no-windows/blob/gh-pages/LICENSE-hyde.md).

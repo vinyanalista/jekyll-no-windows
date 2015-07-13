@@ -44,7 +44,7 @@ Clique no botão abaixo e faça o *download* do instalador da versão 2.7.10 que
 
 Abra o arquivo baixado e avance pelas telas da instalação. Quando você chegar na tela abaixo, certifique-se de clicar na seta próxima à opção "*Add python.exe to Path*" e selecionar "*Entire feature will be installed on local hard drive*".
 
-<img alt="Foto de tela da instalação do Python" src="../public/img/python-path.jpg" class="img-nice">
+<img alt="Foto de tela da instalação do Python" src="../public/img/python-path.png" class="img-nice">
 
 ### Instale o pip
 

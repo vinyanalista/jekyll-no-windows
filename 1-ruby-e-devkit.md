@@ -15,7 +15,7 @@ Primeiro, clique no botão abaixo e baixe o instalador do Ruby 2.2.2 corresponde
 
 Execute o instalador e avance pelas telas da instalação. Quando você chegar na tela abaixo, certifique-se de marcar a opção "*Add Ruby executables to your PATH*".
 
-<img alt="Foto da última tela da instalação do Ruby" src="../public/img/ruby-path.jpg" class="img-nice">
+<img alt="Foto da última tela da instalação do Ruby" src="../public/img/ruby-path.png" class="img-nice">
 
 Clique em "*Install*" e o Ruby será instalado em segundos.
 
