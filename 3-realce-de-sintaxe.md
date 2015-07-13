@@ -86,7 +86,7 @@ highlighter: pygments
 
 ## Resumo
 
-O Jekyll agora utilizará o realçador de sintaxe que você escolheu para fazer com que os códigos apresentados no seu *site* apareçam super bem. Estamos quase terminando. Clique no botão abaixo para ver como você pode fazer a opção super útil do Jekyll `--watch` funcionar no Windows. Ou, se você não pretende utilizá-la, [pule para algumas últimas dicas para rodar bem o Jekyll no Windows]({{ "/5-rodando" | prepend: site.baseurl }}).
+O Jekyll agora utilizará o realçador de sintaxe que você escolheu para fazer com que os códigos apresentados no seu *site* apareçam super bem. Estamos quase terminando. Clique no botão abaixo para ver como você pode fazer a opção super útil do Jekyll `--watch` funcionar no Windows. Ou, se você não pretende utilizá-la, [pule para algumas últimas dicas para rodar bem o Jekyll no Windows]({{ "/5-executando-o-jekyll" | prepend: site.baseurl }}).
 
 <div class="pagination">
   <a class="pagination-item older" href="{{ "/2-jekyll" | prepend: site.baseurl }}">&laquo; Instalar o Jekyll</a>

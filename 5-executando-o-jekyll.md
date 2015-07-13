@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Run Jekyll without errors
+title: Execute o Jekyll sem erros
 step: 5
 ---
 
@@ -63,6 +63,6 @@ Found something that wasn't quite clear? Is something in this guide outdated? Di
 If you need help with using Jekyll in general, please visit the official Jekyll website by clicking the button below.
 
 <div class="pagination">
-  <a class="pagination-item older" href="{{ site.baseurl }}4-wdm-gem">&laquo; Watch</a>
-  <a class="pagination-item newer" href="http://jekyllrb.com" target="_blank">Jekyll Docs</a>
+  <a class="pagination-item older" href="{{ "/4-wdm" | prepend: site.baseurl }}">&laquo; Watch</a>
+  <a class="pagination-item newer" href="http://jekyllrb.com" target="_blank"><em>Site</em> do Jekyll &raquo;</a>
 </div>

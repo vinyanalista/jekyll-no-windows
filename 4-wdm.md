@@ -38,5 +38,5 @@ Respire fundo! Você já instalou tudo que precisa para executar o Jekyll no Win
 
 <div class="pagination">
   <a class="pagination-item older" href="{{ "/3-realce-de-sintaxe" | prepend: site.baseurl }}">&laquo; Embelezar código</a>
-  <a class="pagination-item newer" href="{{ "/5-rodando" | prepend: site.baseurl }}">Executar o Jekyll &raquo;</a>
+  <a class="pagination-item newer" href="{{ "/5-executando-o-jekyll" | prepend: site.baseurl }}">Executar o Jekyll &raquo;</a>
 </div>
