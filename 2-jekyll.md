@@ -4,8 +4,6 @@ title: Instale o Jekyll
 step: 2
 ---
 
-## Instalação
-
 O próprio <a href="http://jekyllrb.com" target="_blank">Jekyll</a> é distribuído na forma de uma *gem* do <a href="https://www.ruby-lang.org/pt/about/" target="_blank">Ruby</a>, que é um pacote de *software* de fácil instalação. Para instalar o Jekyll e todas as suas dependências, abra a ferramenta de linha de comando de sua preferência e digite o comando a seguir.
 
 ~~~
