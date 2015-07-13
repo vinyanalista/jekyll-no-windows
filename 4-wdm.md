@@ -1,42 +1,42 @@
 ---
 layout: page
-title: Let Jekyll --watch
+title: Use o jekyll --watch
 step: 4
 ---
 
-Jekyll has a built-in auto-regeneration feature that watches your source folder for changes and then re-builds your site. Starting with Jekyll v2.4.0, the `jekyll serve` command has this enabled by default and you can use run `jekyll build --watch` to manually enable it there.
+O <a href="http://jekyllrb.com" target="_blank">Jekyll</a> tem uma funcionalidade integrada de auto-regeneração que reconstrói o seu *site* quando observa mudanças no código-fonte. Desde a versão 2.4.0 do Jekyll, o comando `jekyll serve` tem essa funcionalidade habilitada por padrão e você pode utilizar `jekyll build --watch` para habilitá-la manualmente.
 
-## Install the wdm Gem
+## Instale a *gem* wdm
 
-On Windows, you need to install one extra tool, or rather Gem, to enable this functionality. Simply run the following command from the command line.
+No <a href="http://www.microsoft.com/pt-br/windows" target="_blank">Windows</a>, você precisa instalar uma ferramenta extra, ou *gem*, para habilitar essa funcionalidade. Simplesmente execute o comando a seguir na linha de comando.
 
 ~~~
 gem install wdm
 ~~~
 
-## Require wdm in your Gemfile
+## Exija a wdm no seu Gemfile
 
-Alternatively, if you use a Gemfile, you can check if Jekyll runs on Windows and only then install the wdm Gem.
+Como alternativa, se você utiliza um `Gemfile`, pode verificar se o Jekyll está sendo executado no Windows e somente nessa ocasião instalar a *gem* <a href="https://github.com/Maher4Ever/wdm" target="_blank">wdm</a>.
 
 ~~~
 gem 'wdm', '~> 0.1.0' if Gem.win_platform?
 ~~~
 
-## Install working version of listen Gem
+## Instale uma versão da *gem* listen que funcione
 
-Jekyll uses the listen Gem as a dependency for auto-regeneration. Some versions of listen do not work on Windows. [jekyll/jekyll-help#64](https://github.com/jekyll/jekyll-help/issues/64) has some information on versions that worked on Windows in the past. Please refer to the [Versions table](/#versions) to learn which versions of listen have been tested as part of this guide.
+O Jekyll requer a *gem* <a href="https://github.com/guard/listen" target="_blank">listen</a> como dependência para a auto-regeneração. Algumas versões da listen não funcionam no Windows. [Essa página](https://github.com/jekyll/jekyll-help/issues/64) tem mais informações sobre versões que funcionaram no Windows no passado. Você pode verificar na [tabela de versões]({{ "/#versoes" | prepend: site.baseurl }}) quais versões da listen foram testadas durante a elaboração deste guia.
 
-## May still not work
+## Pode ainda não funcionar
 
-- If you try to run `jekyll build --watch` or `jekyll serve` and the output directory already exists, Jekyll sometimes fails to build the site. If you encounter this problem, you can work around it by adding `--force_polling` to the end of your Jekyll command. See the discussion in [twbs/bootstrap#14746](https://github.com/twbs/bootstrap/pull/14746) and [jekyll/jekyll#2926](https://github.com/jekyll/jekyll/issues/2926) for more information.
+- Se você tentar executar `jekyll build --watch` ou `jekyll serve` e o diretório de saída já existir, às vezes o Jekyll falha durante a compilação do *site*. Se você se deparar com esse problema, você pode contorná-lo adicionando `--force_polling` ao final do seu comando para o Jekyll. Veja as discussões [aqui](https://github.com/twbs/bootstrap/pull/14746) e [aqui](https://github.com/jekyll/jekyll/issues/2926) para mais informações.
 
-- Jekyll's auto-regeneration feature sometimes does not work at all. [jekyll/jekyll#2529](https://github.com/jekyll/jekyll/issues/2529) suggests it fails on 32-bit systems and there is no known workaround. As of Jekyll v2.4.0, if your system is affected by this problem, you need to manually disable the auto-regeneration feature when you want to serve a site using Jekyll by running `jekyll serve --no-watch`.
+- Às vezes, a auto-regeneração do Jekyll não funciona de forma alguma. [Essa página](https://github.com/jekyll/jekyll/issues/2529) sugere que ela não funciona em sistemas de 32 *bits* e não há solução conhecida. Desde a versão 2.4.0 do Jekyll, se seu sistema é afetado por esse problema, você precisa manualmente desabilitar a funcionalidade de auto-regeneração quando desejar que o Jekyll sirva seu *site* executando `jekyll serve --no-watch`.
 
-## Summary
+## Resumo
 
-Take a deep breath! You've now installed everything you need to run Jekyll on Windows. There are a few minor things you should know to make sure that your sites build smoothly and without problems. Click the button below to proceed.
+Respire fundo! Você já instalou tudo que precisa para executar o Jekyll no Windows. Há ainda alguns detalhes aos quais você precisa se atentar para se certificar de que seus *sites* sejam compilados bem e sem complicações. Clique no botão abaixo para continuar.
 
 <div class="pagination">
-  <a class="pagination-item older" href="{{ site.baseurl }}3-syntax-highlighting">&laquo; Beautiful Code</a>
-  <a class="pagination-item newer" href="{{ site.baseurl }}5-running-jekyll">Run Jekyll &raquo;</a>
+  <a class="pagination-item older" href="{{ "/3-realce-de-sintaxe" | prepend: site.baseurl }}">&laquo; Embelezar código</a>
+  <a class="pagination-item newer" href="{{ "/5-rodando" | prepend: site.baseurl }}">Executar o Jekyll &raquo;</a>
 </div>
