@@ -4,13 +4,13 @@ title: Execute o Jekyll sem erros
 step: 5
 ---
 
-## `BOM` não é permitido
+## Caracteres `BOM` não são permitidos
 
 Se houver quaisquer caracteres `BOM` no cabeçalho dos seus arquivos codificados como UTF-8, o <a href="http://jekyllrb.com" target="_blank">Jekyll</a> vai travar. Certifique-se de que não há.
 
 ## Altere a codificação dos seus arquivos para UTF-8
 
-Dependendo da versão do <a href="https://www.ruby-lang.org/pt/about/" target="_blank">Ruby</a> e/ou do Jekyll que você está usando, do conteúdo do seu *site*, e possivelmente de outros fatores, talvez você precise se certificar de que o Jekyll lerá o código-fonte do seu *site* como UTF-8.
+Dependendo da versão do <a href="https://www.ruby-lang.org/pt/about/" target="_blank">Ruby</a> e/ou do Jekyll que você usa, do conteúdo do seu *site*, e possivelmente de outros fatores, talvez você precise se certificar de que o Jekyll lerá o código-fonte do seu *site* como UTF-8.
 
 Se você seguiu este guia passo-a-passo ou se suas versões correspondem às [versões usadas neste guia]({{ "/#versoes" | prepend: site.baseurl }}), provavelmente não é necessário realizar os reparos indicados a seguir.
 
@@ -35,15 +35,15 @@ chcp 65001
 O Jekyll não consegue compilar ou servir *sites* de certos diretórios reservados do <a href="http://www.microsoft.com/pt-br/windows" target="_blank">Windows</a>, como seu diretório de usuário. Ao invés disso, ele informará um erro parecido com este:
 
 {% highlight text %}
-C:\Users\You>jekyll serve
-Configuration file: C:\Users\You\_config.yml
-            Source: C:\Users\You
-       Destination: C:\Users\You\_site
+C:\Users\SeuNome>jekyll serve
+Configuration file: C:\Users\SeuNome\_config.yml
+            Source: C:\Users\SeuNome
+       Destination: C:\Users\SeuNome\_site
       Generating...
 jekyll 2.5.3 | Error:  Permission denied @ dir_initialize - .
 {% endhighlight %}
 
-Se você encontrar um erro como esse, mova seu *site* para um subdiretório (por exemplo, `C:\Users\You\awesome-jekyll-site`) e tente novamente.
+Se você encontrar um erro como esse, mova seu *site* para um subdiretório (por exemplo, `C:\Users\SeuNome\site-maneiro-com-jekyll`) e tente novamente.
 
 ## Fim
 

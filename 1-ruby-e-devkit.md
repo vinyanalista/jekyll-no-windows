@@ -9,7 +9,7 @@ step: 1
 
 ## Instale o Ruby
 
-Primeiramente, clique no botão abaixo e baixe o instalador do Ruby 2.2.2 correspondente à arquitetura do seu sistema (x86 / x64).
+Primeiro, clique no botão abaixo e baixe o instalador do Ruby 2.2.2 correspondente à arquitetura do seu sistema (x86 / x64).
 
 <a href="http://rubyinstaller.org/downloads/" class="button-external" target="_blank">Baixe o Ruby para Windows</a>
 
@@ -49,7 +49,7 @@ ruby dk.rb install
 
 ## Resumo
 
-Bom, é isso! Se tudo ocorreu bem, agora você possui uma instalação funcional do Ruby na sua máquina e pode gerar executáveis funcionais usando o Ruby Development Kit. O Ruby inclui uma maneira de instalar as chamadas *gems* ("jóias") &mdash; pacotes de *software* que você pode usar a partir da linha de comando. O Jekyll é uma delas! Clique no botão abaixo para ver como você pode instalá-lo.
+Bom, é isso! Se tudo ocorreu bem, agora você possui uma instalação do Ruby funcionando na sua máquina e pode gerar executáveis funcionais usando o Ruby Development Kit. O Ruby inclui uma maneira de instalar as chamadas *gems* ("jóias") &mdash; pacotes de *software* que você pode usar a partir da linha de comando. O Jekyll é uma delas! Clique no botão abaixo para ver como você pode instalá-lo.
 
 <div class="pagination">
   <a class="pagination-item older" href="{{ "/" | prepend: site.baseurl }}">&laquo; Introdução</a>
