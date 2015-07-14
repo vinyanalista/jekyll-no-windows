@@ -16,3 +16,6 @@ github:
 author:
   name:           'Antônio Vinícius Menezes Medeiros'
   url:            https://vinyanalista.github.io
+
+# do not include protocol, just the domain
+enforce_ssl: vinyanalista.github.io

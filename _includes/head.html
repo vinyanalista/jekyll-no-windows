@@ -5,6 +5,17 @@
   <!-- Enable responsiveness on mobile devices-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
+    {% if site.enforce_ssl %}
+        <!--
+            redirect users to the https version of the website.
+            but: only check when on the production domain, as set in _config.yml.
+        -->
+        <script type="text/javascript">
+            if (("{{ site.enforce_ssl }}" == window.location.host) && (window.location.protocol != "https:"))
+                window.location = window.location.toString().replace(/^http:/, "https:");
+        </script>
+    {% endif %}
+
   <title>
     {% if page.title %}
       {{ page.title }} &middot; {{ site.title }}
