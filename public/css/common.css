@@ -1,0 +1,19 @@
+.adsbygoogle {
+    display: block;
+    height: 3rem;
+    margin-top: 1rem;
+    max-height: 3rem;
+    width: 100%;
+}
+
+.lead {
+    font-size: 1.1rem;
+}
+
+.page .adsbygoogle {
+    margin-bottom: 1rem;
+}
+
+.sidebar-about h1 {
+    font-size: 1.5rem;
+}

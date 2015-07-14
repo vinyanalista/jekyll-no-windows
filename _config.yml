@@ -22,3 +22,9 @@ enforce_ssl: vinyanalista.github.io
 
 addthis_profile_id: ra-4f7774466af48b4f
 description: "O Jekyll, um simples gerador de sites estáticos, focado especialmente em blogs, pode ser instalado com bastante facilidade no Mac OS X ou no Linux. No Windows, nem tanto. Este guia está aqui para ajudar."
+
+google_adsense:
+  editor_id: ca-pub-5193467168351289
+  ad_unit_1: 1956815057
+  ad_unit_2: 3433548254
+  ad_unit_3: 6387014657
